@@ -10,7 +10,7 @@ import LoginModal from './components/Modals/LoginModal'
 import getCurrentUser from './actions/getCurrentUser'
 import RentModal from './components/Modals/RentModal'
 import SearchModal from './components/Modals/SearchModal'
-import ViewSwitchBadge from './components/ViewSwitchBadge'
+
 
 
 const inter = Nunito({ subsets: ['latin'] })
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 }
 
 const font = Nunito({
-  subsets: ['latin'],
+  subsets: ['cyrillic'],
 });
 
 export default async function RootLayout({
